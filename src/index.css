@@ -13,6 +13,10 @@ button {
   height: 30px;
   width: 30px;
   margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
 }
 
 footer {
@@ -72,11 +76,6 @@ p {
   flex-direction: column;
   margin-right: auto;
   gap: 3px;
-}
-
-.icon-share {
-  width: 15px;
-  /* height: 20px; */
 }
 
 .img-avatar {
@@ -164,7 +163,7 @@ p {
   position: absolute;
   z-index: 1;
   bottom: 32%;
-  left: 62.75%;
+  left: 62.75;
 
   /* Fade in tooltip */
   opacity: 0;
