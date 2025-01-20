@@ -13,14 +13,12 @@ button {
   height: 30px;
   width: 30px;
   margin-left: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 5px;
+  
+  /* padding-bottom: 5px; */
 }
 
-button svg {
-  max-width: 100%;
+button svg path{
+  width: 100%;
   height: auto;
 }
 
